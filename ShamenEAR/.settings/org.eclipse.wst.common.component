@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ShamenEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ShamenWeb.war" deploy-path="/" handle="module:/resource/ShamenWeb/ShamenWeb">
+            <dependent-object>WebModule_1440679509359</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ShamenEJB.jar" deploy-path="/" handle="module:/resource/ShamenEJB/ShamenEJB">
+            <dependent-object>EjbModule_1443621683407</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.15.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/log4j-1.2.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.ibm.ws.orb_9.0.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/com.ibm.ws.orb_9.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eclipselink.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/eclipselink.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.ibm.ws.ejb.thinclient_9.0.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/com.ibm.ws.ejb.thinclient_9.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.ibm.ws.sib.client.thin.jms_9.0.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/com.ibm.ws.sib.client.thin.jms_9.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.persistence.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/javax.persistence.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shamen-client-plugin-2.1.1.jar" deploy-path="/" handle="module:/classpath/lib/ShamenEAR/lib/shamen-client-plugin-2.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
